@@ -8,7 +8,6 @@ for i in range(0,6):
   arr.append(num)
   i = i + 1
 else:
-  arr.pop(0)
   print(f'Your array is {arr}')
   arr.reverse()
   print(f'Your reversed array is: {arr}')
